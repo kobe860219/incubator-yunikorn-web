@@ -66,7 +66,7 @@ start-dev:
 # Build the web interface for dev and test
 .PHONY: build
 build:
-	yarn install & ng build
+	yarn install && ng build
 
 # Run the tests after building
 test: build
